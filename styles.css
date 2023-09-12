@@ -1,0 +1,85 @@
+  /* Add some basic styling to the navbar */
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 157px;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+/* Style for the navbar items */
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #555;
+}
+
+/* Style for the button */
+.button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.dee h1{
+     color: black;
+     font-size: xx-large;
+}
+.dee p{
+    font-size: large;
+}
+.dee button{
+    color:white;
+    background-color:rgb(0 140 186);
+    border: none;
+   
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.cont{
+    display: flex
+}
+.navbar{
+    background-color: white;
+}
+.nee{
+    text-decoration: none;
+    font-size: xx-large;
+}
+.abv{
+    display: flex;
+}
+.dee{padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.cont div{
+    background-color: rgb(210, 209, 206);
+    margin: 15px;
+    padding: 50px;
+}
+.cont div i{
+    font-size: 40px;
+    color: #008cba;
+}
